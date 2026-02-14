@@ -18,7 +18,7 @@ for num in range(0,num_numbers):
 
 for sym in range(0,num_symbols):
     password += random.choice(symbols)
-print(password)
+print("Order not randomised:",password)
  
 #Hard level - Order of characters randomised:
 password_list=[]
@@ -35,4 +35,4 @@ random.shuffle(password_list)
 password_suffled = ""
 for char in password_list:
     password_suffled += char
-print(password_suffled)
+print("Order of characters randomised:",password_suffled)
